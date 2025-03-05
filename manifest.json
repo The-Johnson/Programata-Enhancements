@@ -19,9 +19,12 @@
     },
     "web_accessible_resources": [
       {
-        "resources": ["imdb-icon.png"],
+        "resources": ["imdb-icon.png", "rt-icon.png", "metacritic-icon.png"],
         "matches": ["<all_urls>"]
       }
-    ]
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://image.tmdb.org https://*.tmdb.org data: blob:;"
+    }
   }
   
