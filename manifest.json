@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Programata.bg Enhancements",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Replaces movie titles with their original titles on Programata.bg cinema hall pages. Adds country flags next to movie titles",
     "permissions": [],
     "host_permissions": [
